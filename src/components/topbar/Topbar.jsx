@@ -50,12 +50,14 @@ const Topbar = () => {
     <div className="topbar">
         <header className="header">
             <div className="container nav-container">
-                <div className="logo">
-                    <div className="logo-icon">
-                        <img src='/src/assets/instiwise-logo.png' alt='SVC' />
+                <Link to='/' className='link-main'>
+                    <div className="logo">
+                        <div className="logo-icon">
+                            <img src='/src/assets/instiwise-logo.png' alt='SVC' />
+                        </div>
+                        <span className="logo-text">INSTiWISE</span>
                     </div>
-                    <span className="logo-text">INSTiWISE</span>
-                </div>
+                </Link>
 
                 <nav className="nav">
                     <Link to='/features' className='link-main'>
