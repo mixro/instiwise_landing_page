@@ -228,14 +228,14 @@
 
 /* Responsive */
 @media (max-width: 968px) {
-  .contact-grid {
-    grid-template-columns: 1fr;
-    gap: 60px;
-  }
-  .form-row {
-    grid-template-columns: 1fr;
-  }
-  .contact-hero h1 { font-size: 38px; }
+    .contact-grid {
+        grid-template-columns: 1fr;
+        gap: 60px;
+    }
+    .form-row {
+        grid-template-columns: 1fr;
+    }
+    .contact-hero h1 { font-size: 38px; }
 }
 
 @media (max-width: 600px) {

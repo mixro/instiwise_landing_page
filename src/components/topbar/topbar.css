@@ -27,6 +27,9 @@
 .logo-icon {
     width: 50px;
     height: 50px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
     border-radius: 12px;
     position: relative;
     margin-right: 12px;
@@ -89,6 +92,10 @@
     font-weight: 600;
 }
 
+.box-links:hover {
+    color: #0f9669;
+}
+
 .menu_download button {
     width: 100%;
     border: none;
@@ -107,12 +114,24 @@
 
 /* Responsive */
 @media (max-width: 768px) {
-  .nav {
-    display: none; 
-  }
+    .header {
+        padding: 15px 0;
+    }
 
-  .topbar-menu-icon {
-    display: block;
-    cursor: pointer;
-  }
+    .nav {
+        display: none; 
+    }
+
+    .logo {
+        font-size: 22px;
+    }
+
+    .logo-icon {
+        width: 45px;
+    }
+
+    .topbar-menu-icon {
+        display: block;
+        cursor: pointer;
+    }
 }
