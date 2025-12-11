@@ -1,3 +1,4 @@
+import { CalendarMonth, Call, Email } from '@mui/icons-material';
 import './contact.css';
 
 const Contact = () => {
@@ -55,7 +56,7 @@ const Contact = () => {
 
             <div className="contact-options">
               <div className="contact-option">
-                <div className="icon">Phone</div>
+                <div className="icon"><Call sx={{fontSize: 40}} /></div>
                 <div>
                   <strong>Call or WhatsApp</strong>
                   <a href="tel:+919876543210">+91 98765 43210</a>
@@ -64,7 +65,7 @@ const Contact = () => {
               </div>
 
               <div className="contact-option">
-                <div className="icon">Email</div>
+                <div className="icon"><Email sx={{fontSize: 40}} /></div>
                 <div>
                   <strong>Email Us</strong>
                   <a href="mailto:hello@instiwise.app">hello@instiwise.app</a>
@@ -73,7 +74,7 @@ const Contact = () => {
               </div>
 
               <div className="contact-option">
-                <div className="icon">Calendar</div>
+                <div className="icon"><CalendarMonth sx={{fontSize: 40}} /></div>
                 <div>
                   <strong>Book a 15-min Call</strong>
                   <a href="https://calendly.com/instiwise/demo" target="_blank" rel="noopener">
@@ -126,11 +127,11 @@ const Contact = () => {
       </section>
 
       {/* Final CTA */}
-      <section className="contact-cta">
+      <section className="features-cta">
         <div className="container">
           <h2>Don’t Wait — Your Smart Campus Starts Today</h2>
           <p>Over 200 institutions went live this month alone.</p>
-          <button className="btn-large btn-primary">Start Free Trial Instantly</button>
+          <button className="btn-large bg-black">Start Free Trial Instantly</button>
         </div>
       </section>
     </>

@@ -1,9 +1,7 @@
-/* src/HowItWorks.css - Pure CSS only */
-
 .how-hero {
   padding: 160px 0 100px;
   text-align: center;
-  background: linear-gradient(to bottom, #f8fffe, #ffffff);
+  background: linear-gradient(to bottom, #e4fcf1, #ffffff);
 }
 
 .how-hero h1 {
@@ -20,7 +18,7 @@
 
 .steps-section {
   padding: 120px 0;
-  background: #f9f9f9;
+  background: #f1f1f1;
 }
 
 .steps-container {
@@ -47,7 +45,7 @@
 .step-number {
   width: 100px;
   height: 100px;
-  background: linear-gradient(135deg, #00d4aa, #008f7a);
+  background: linear-gradient(135deg, #008f58, #159655);
   color: white;
   border-radius: 50%;
   display: flex;
@@ -56,7 +54,7 @@
   font-size: 48px;
   font-weight: bold;
   flex-shrink: 0;
-  box-shadow: 0 15px 40px rgba(0, 212, 170, 0.4);
+  box-shadow: 0 15px 40px rgba(0, 212, 124, 0.4);
 }
 
 .step-content {
@@ -91,7 +89,7 @@
 
 .check-list li::before {
   content: "✓";
-  color: #00d4aa;
+  color: var(--primary-color);
   font-weight: bold;
   position: absolute;
   left: 0;
@@ -155,7 +153,7 @@
 .tl-dot {
   width: 16px;
   height: 16px;
-  background: #00d4aa;
+  background: var(--primary-color);
   border-radius: 50%;
   margin: 0 auto 15px;
   box-shadow: 0 0 0 8px rgba(0,212,170,0.2);
@@ -214,12 +212,19 @@
     flex-direction: column !important;
     text-align: center;
   }
+
   .step-number {
-    margin-bottom: 30px;
+    margin-bottom: 20px;
   }
   .timeline-items {
     flex-direction: column;
     gap: 40px;
   }
+
   .how-hero h1 { font-size: 38px; }
+
+  .step-number {
+    width: 90px;
+    height: 90px;
+  }
 }

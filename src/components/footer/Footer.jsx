@@ -14,19 +14,19 @@ const Footer = () => {
             <span>INSTiWISE</span>
           </div>
           <div className="footer-links">
-            <div>
+            <div className='footer-link'>
               <h4>Product</h4>
               <a href="#">Features</a>
               <a href="#">Pricing</a>
               <a href="#">Security</a>
             </div>
-            <div>
+            <div className='footer-link'>
               <h4>Company</h4>
               <a href="#">About</a>
               <a href="#">Blog</a>
               <a href="#">Careers</a>
             </div>
-            <div>
+            <div className='footer-link'>
               <h4>Support</h4>
               <a href="#">Help Center</a>
               <a href="#">Contact</a>

@@ -20,3 +20,21 @@
   font-family: 'Poppins', sans-serif;
   --box-shadow: 0 0 5px 0 rgba(0, 0, 0, .3);
 }
+
+.bg-black {
+  background: black;
+  color: white;
+  border: none;
+  outline: none;
+}
+
+.btn-outline-black {
+  background: transparent;
+  color: rgb(255, 255, 255);
+  border: 2px solid rgb(255, 255, 255);
+}
+
+.btn-outline-black:hover {
+  background: white;
+  color: black;
+}

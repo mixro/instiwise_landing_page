@@ -104,13 +104,13 @@ const HowItWorks = () => {
       </section>
 
       {/* Final CTA */}
-      <section className="final-cta">
+      <section className="features-cta">
         <div className="container">
           <h2>Ready to Launch Your Smart Campus Today?</h2>
           <p>Join 200+ institutions that went live in under a week</p>
           <div className="cta-actions">
-            <button className="btn-large btn-primary">Start Free Instantly</button>
-            <button className="btn-large btn-outline-white">Book a 15-min Demo</button>
+            <button className="btn-large bg-black">Start Free Instantly</button>
+            <button className="btn-large btn-outline-black">Book a 15-min Demo</button>
           </div>
           <p className="guarantee">30-day free trial • No setup fees • Cancel anytime</p>
         </div>
