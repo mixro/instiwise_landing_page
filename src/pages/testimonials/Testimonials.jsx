@@ -38,7 +38,9 @@ const Testimonials = () => {
               Finding project teammates used to take weeks. With InstiWise, I connected with 4 amazing developers in 2 days. We built an award-winning app together. This platform is a game-changer!
             </p>
             <div className="author">
-              <div className="avatar large"></div>
+              <div className="avatar large">
+                <img src="https://media.istockphoto.com/id/1785382011/photo/campus-student-and-portrait-of-black-man-at-college-building-academy-and-school-for-education.jpg?s=612x612&w=0&k=20&c=BDhGY9HWCie8f22RASEIGBGaTMozUu9Zxm1o-X-tXFg=" alt="PR" />
+              </div>
               <div className='author-details'>
                 <p>Arjun Patel</p>
                 <p>Final Year CSE • IIT Bombay</p>

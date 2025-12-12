@@ -94,6 +94,13 @@
   height: 90px;
 }
 
+.avatar img {
+  width: 100%;
+  object-fit: cover;
+  border-radius: 50%;
+  aspect-ratio: 1/1;
+}
+
 .author-details p {
   text-align: left;
 }
@@ -224,6 +231,6 @@
   .testimonials-hero h1 { font-size: 38px; }
   .stats { gap: 40px; }
   .featured-card { padding: 50px 30px; }
-  .featured-quote { font-size: 22px; }
+  .featured-quote { font-size: 22px;}
   .testimonial-card { padding: 30px; }
 }
