@@ -182,7 +182,9 @@ const Contact = () => {
 
             <div className="contact-options">
               <div className="contact-option">
-                <div className="icon"><Call sx={{fontSize: 40}} /></div>
+                <div className="icon">
+                  <Call sx={{fontSize: 40}} />
+                </div>
                 <div>
                   <p style={{fontWeight: 700}}>Call or WhatsApp</p>
                   <a href="tel:+919876543210"> +91 98765 43210</a>
@@ -191,7 +193,9 @@ const Contact = () => {
               </div>
 
               <div className="contact-option">
-                <div className="icon"><Email sx={{fontSize: 40}} /></div>
+                <div className="icon">
+                  <Email sx={{fontSize: 40}} />
+                </div>
                 <div>
                   <p style={{fontWeight: 700}}>Email Us</p>
                   <a href="mailto:hello@instiwise.app">hello@instiwise.app</a>
@@ -200,7 +204,9 @@ const Contact = () => {
               </div>
 
               <div className="contact-option">
-                <div className="icon"><CalendarMonth sx={{fontSize: 40}} /></div>
+                <div className="icon">
+                  <CalendarMonth sx={{fontSize: 40}} />
+                </div>
                 <div>
                   <p style={{fontWeight: 700}}>Book a 15-min Call</p>
                   <a href="https://calendly.com/instiwise/demo" target="_blank" rel="noopener">
