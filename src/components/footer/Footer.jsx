@@ -9,7 +9,7 @@ const Footer = () => {
         <div className="container footer-content">
           <div className="footer-logo">
             <div className="logo-icon">
-                <img src='/src/assets/instiwise-logo.png' alt='SVC' />
+                <img src='/assets/instiwise-logo.png' alt='SVC' />
             </div>
             <span>INSTiWISE</span>
           </div>

@@ -51,7 +51,7 @@ const Topbar = () => {
                 <Link to='/' className='link-main'>
                     <div className="logo">
                         <div className="logo-icon">
-                            <img src='/src/assets/instiwise-logo.png' alt='SVC' />
+                            <img src='/assets/instiwise-logo.png' alt='SVC' />
                         </div>
                         <span className="logo-text">INSTiWISE</span>
                     </div>
