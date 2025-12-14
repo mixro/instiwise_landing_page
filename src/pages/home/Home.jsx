@@ -51,17 +51,17 @@ const Home = () => {
                 <h2 className="section-title">Get Started in Minutes</h2>
                 <div className="steps">
                     <div className="step">
-                        <div className="step-number">1</div>
+                        <div className="home_step_number">1</div>
                             <h3>Sign Up Your Institute</h3>
                             <p>Admin creates institute account in under 5 minutes</p>
                         </div>
                         <div className="step">
-                            <div className="step-number">2</div>
+                            <div className="home_step_number">2</div>
                             <h3>Import Students & Faculty</h3>
                             <p>Upload CSV or sync with existing system</p>
                         </div>
                         <div className="step">
-                            <div className="step-number">3</div>
+                            <div className="home_step_number">3</div>
                             <h3>Go Live!</h3>
                         <p>Everyone gets instant access via web & mobile apps</p>
                     </div>

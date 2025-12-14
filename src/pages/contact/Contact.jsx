@@ -1,4 +1,4 @@
-import { CalendarMonth, Call, Email } from '@mui/icons-material';
+import { CalendarMonth, Call, Cancel, CheckCircle, Email } from '@mui/icons-material';
 import './contact.css';
 import { useState } from 'react';
 
@@ -31,7 +31,7 @@ const Contact = () => {
     setErrorMessage('');
 
     try {
-      const response = await fetch('http://localhost:8800/api/v1/demo-requests', {
+      const response = await fetch('https://instiwise-backend-v2.onrender.com/api/v1/demo-requests', {
         method: 'POST',
         headers: {
           'Content-Type': 'application/json',
@@ -161,15 +161,16 @@ const Contact = () => {
               {/* Success Message */}
               {submitStatus === 'success' && (
                 <div className="success-message">
-                  Thank you! Your request has been sent successfully. 
-                  We’ll contact you within the next hour.
+                  <CheckCircle />
+                  <p>Thank you! Your request has been sent successfully. We’ll contact you within the next hour.</p>
                 </div>
               )}
 
               {/* Error Message */}
               {submitStatus === 'error' && (
-                <div className="error-message">
-                  {errorMessage}
+                <div className="success-message error-message">
+                  <Cancel />
+                  <p>{errorMessage}</p>
                 </div>
               )}
             </form>

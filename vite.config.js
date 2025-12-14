@@ -5,7 +5,6 @@ import react from '@vitejs/plugin-react-swc'
 export default defineConfig({
   plugins: [react()],
   server: {
-    // Setting host to `true` or '0.0.0.0' allows access from network IP
     host: true, 
   },
 })

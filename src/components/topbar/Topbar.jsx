@@ -18,8 +18,6 @@ const Topbar = () => {
         setOpen(open);
     };
 
-    console.log(open)
-
     const list = () => (
         <Box
             sx={{ width: '100vw' }}  

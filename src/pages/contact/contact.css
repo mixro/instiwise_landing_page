@@ -97,7 +97,24 @@
   font-size: 15px;
 }
 
-/* Contact Info Side */
+.success-message {
+  color: green;
+  margin-top: 15px;
+  display: flex;
+  gap: 10px;
+}
+
+.success-message p {
+  color: green;
+}
+
+.error-message, .error-message p {
+  color: red;
+}
+
+
+/* ---------------- Contact Info Side ------------ */
+
 .contact-info h2 {
   font-size: 32px;
   margin-bottom: 30px;
@@ -173,7 +190,8 @@
   line-height: 1.7;
 }
 
-/* FAQ Preview */
+/* ---------------- FAQ Preview ------------ */
+
 .faq-preview {
   padding: 100px 0;
   text-align: center;
@@ -211,7 +229,8 @@
   text-decoration: none;
 }
 
-/* Final CTA */
+/* ---------------- Final CTA ------------ */
+
 .contact-cta {
   padding: 120px 0;
   text-align: center;
@@ -224,7 +243,8 @@
   margin-bottom: 20px;
 }
 
-/* Responsive */
+/* ---------------- Responsive ------------ */
+
 @media (max-width: 968px) {
     .contact-grid {
         grid-template-columns: 1fr;
