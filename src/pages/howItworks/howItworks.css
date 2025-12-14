@@ -126,7 +126,8 @@
   backdrop-filter: blur(10px);
 }
 
-/* Timeline */
+/* ------------- Timeline ------------- */
+
 .timeline {
   padding: 100px 0;
   text-align: center;
@@ -159,7 +160,8 @@
   box-shadow: 0 0 0 8px rgba(0,212,170,0.2);
 }
 
-/* Final CTA */
+/* ------------- Final CTA ------------- */
+
 .final-cta {
   padding: 140px 0;
   text-align: center;
@@ -206,7 +208,8 @@
   opacity: 0.9;
 }
 
-/* Responsive */
+/* ------------- Responsive ------------- */
+
 @media (max-width: 968px) {
   .step-card {
     flex-direction: column !important;
