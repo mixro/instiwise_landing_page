@@ -10,7 +10,15 @@ const Home = () => {
                     <p className="hero-subtitle">InstiWise is an intelligent institute management and collaboration platform that brings students, faculty, and staff together with real-time schedules, project sharing, announcements, and meaningful academic networking.</p>
                     <div className="hero-actions">
                         <button className="hero-btn btn-primary">Start Free Trial</button>
-                        <button className="hero-btn btn-outline">Watch Demo</button>
+                        <a 
+                            href="https://drive.google.com/uc?export=download&id=1_qH95zO1Oe5PI9dbHIT7Esi7zPK2sHRj"
+                            download="instiwise-demo.apk"
+                            target="_blank"
+                            rel="noopener"
+                            className="hero-btn btn-outline"
+                        >
+                            <button className="hero_button">Download Demo App</button>
+                        </a>
                     </div>
                     <div className="trusted-by">
                         <p>Trusted by 200+ leading institutions worldwide</p>

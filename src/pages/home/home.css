@@ -67,7 +67,15 @@
   color: var(--primary-color);
 }
 
-.btn-outline:hover {
+.hero_button {
+  background: transparent;
+  width: 100%;
+  border: none;
+  outline: none;
+  font-size: 18px;
+}
+
+.btn-outline:hover, .hero_button:hover {
   background: var(--primary-color);
   color: white;
 }
