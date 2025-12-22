@@ -38,7 +38,15 @@ const Topbar = () => {
                 </div>
 
                 <div className="menu_download">
-                    <button><Download /> Download App</button>
+                    <a 
+                        href="https://drive.google.com/uc?export=download&id=1_qH95zO1Oe5PI9dbHIT7Esi7zPK2sHRj"
+                        download="instiwise-demo.apk"
+                        target="_blank"
+                        rel="noopener"
+                        className='link-main'
+                    >
+                        <button><Download /> Download Demo App</button>
+                    </a>
                 </div>
             </div>
         </Box>
